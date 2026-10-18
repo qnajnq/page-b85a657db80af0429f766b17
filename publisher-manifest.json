@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "59ae38a9bd8c3a4782d0b8a5",
+  "owner": "qnajnq",
+  "repo": "page-b85a657db80af0429f766b17",
+  "title": "MeiYing",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "b85a657db80af0429f766b17",
+      "a": "MeiYing",
+      "b": "",
+      "entity": "MeiYing",
+      "brand": "MeiYing",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a3ebe78755d2f4d914177ae8c6110e77ceabad15c717d2875955a73724c64d88",
+      "content": {
+        "keyword1": "MeiYing",
+        "keyword2": "",
+        "primary_entity": "MeiYing",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "MeiYing 为你提供轻松、流畅的网络连接体验。告别卡顿与延迟，和朋友一起探索更广阔的数字世界。",
+          "AI_DESCRIPTION": "MeiYing 为你提供轻松、流畅的网络连接体验。告别卡顿与延迟，和朋友一起探索更广阔的数字世界。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-color: #ffffff;--text-main: #111111;--text-muted: #555555;--accent: #ff6600;--accent-light: #fff3ec;--border-color: #111111;--card-bg: #ffffff}\n\n* {box-sizing: border-box;margin: 0;padding: 0}\n\nbody {background-color: var(--bg-color);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;line-height: 1.6;display: flex;min-height: 100vh}\n\n/* 左侧竖排目录导航 */\nnav.sidebar {width: 240px;background-color: var(--bg-color);border-right: 3px solid var(--border-color);padding: 40px 20px;position: fixed;top: 0;bottom: 0;left: 0;display: flex;flex-direction: column;justify-content: space-between;z-index: 10}\n\n.brand-title {font-size: 1.8rem;font-weight: 900;color: var(--text-main);text-decoration: none;margin-bottom: 40px;display: block}\n\n.brand-title span {color: var(--accent)}\n\n.nav-links {display: flex;flex-direction: column;gap: 20px}\n\n.nav-links a {text-decoration: none;color: var(--text-main);font-weight: 700;font-size: 1.1rem;transition: color 0.2s}\n\n.nav-links a:hover {color: var(--accent)}\n\n.sidebar-footer {font-size: 0.85rem;color: var(--text-muted)}\n\n/* 主体内容区 */\nmain {margin-left: 240px;flex: 1;padding: 60px 80px;max-width: 1200px}\n\n@media (max-width: 900px) {\n  body {flex-direction: column}\n  nav.sidebar {position: relative;width: 100%;height: auto;border-right: none;border-bottom: 3px solid var(--border-color);padding: 20px}\n  main {margin-left: 0;padding: 30px 20px}\n}\n\nsection {margin-bottom: 80px}\n\n/* 首屏：4 仪表盘式数据块拼贴 */\n.hero {margin-top: 20px}\n\n.hero-intro {margin-bottom: 30px}\n\n.hero-intro h1 {font-size: 3rem;font-weight: 900;margin-bottom: 15px;line-height: 1.2}\n\n.hero-intro p {font-size: 1.25rem;color: var(--text-muted)}\n\n.dashboard-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));gap: 20px}\n\n.dashboard-card {border: 3px solid var(--border-color);padding: 24px;background: var(--card-bg);box-shadow: 6px 6px 0px var(--border-color)}\n\n.dashboard-card .number {font-size: 2.5rem;font-weight: 900;color: var(--accent);margin-bottom: 8px}\n\n.dashboard-card .label {font-weight: 700;font-size: 1rem}\n\n/* 核心优势 */\nh2 {font-size: 2.2rem;font-weight: 900;margin-bottom: 30px;border-bottom: 3px solid var(--border-color);padding-bottom: 10px;display: inline-block}\n\n.features-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 30px}\n\n.feature-item {border: 3px solid var(--border-color);padding: 30px;background: var(--card-bg);box-shadow: 6px 6px 0px var(--border-color)}\n\n.feature-item h3 {font-size: 1.3rem;font-weight: 800;margin-bottom: 12px}\n\n.feature-item p {color: var(--text-muted)}\n\n/* 套餐展示：1 横向对比表格 */\n.plans-container {overflow-x: auto}\n\n.plans-table {width: 100%;border-collapse: collapse;border: 3px solid var(--border-color);background: var(--card-bg);text-align: left}\n\n.plans-table th, .plans-table td {border: 2px solid var(--border-color);padding: 20px}\n\n.plans-table th {background-color: var(--accent-light);font-size: 1.2rem;font-weight: 800}\n\n.plans-table td {font-size: 1rem}\n\n.price-tag {font-size: 1.5rem;font-weight: 900;color: var(--accent);display: block;margin-top: 5px}\n\n.sub-price {font-size: 0.85rem;color: var(--text-muted)}\n\n.featured-badge {background: var(--accent);color: #fff;padding: 4px 8px;font-size: 0.75rem;font-weight: 700;text-transform: uppercase;display: inline-block;margin-bottom: 8px}\n\n/* 使用说明 */\n.steps-list {display: flex;flex-direction: column;gap: 20px}\n\n.step-card {border: 3px solid var(--border-color);padding: 24px;display: flex;align-items: flex-start;gap: 20px;background: var(--card-bg);box-shadow: 6px 6px 0px var(--border-color)}\n\n.step-number {font-size: 2rem;font-weight: 900;color: var(--accent);line-height: 1}\n\n.step-content h3 {font-size: 1.2rem;font-weight: 800;margin-bottom: 6px}\n\n.step-content p {color: var(--text-muted)}\n\n/* FAQ 展示：1 双栏问答 */\n.faq-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));gap: 30px}\n\n.faq-item {border: 3px solid var(--border-color);padding: 25px;background: var(--card-bg);box-shadow: 6px 6px 0px var(--border-color)}\n\n.faq-item h3 {font-size: 1.1rem;font-weight: 800;margin-bottom: 10px;color: var(--text-main)}\n\n.faq-item p {color: var(--text-muted)}\n\n/* 页脚 */\nfooter {border-top: 3px solid var(--border-color);padding-top: 30px;margin-top: 60px;text-align: center;color: var(--text-muted);font-size: 0.9rem}\n</style><nav class=\"sidebar\">\n  <div>\n    <a href=\"#\" class=\"brand-title\">Mei<span>Ying</span></a>\n    <div class=\"nav-links\">\n      <a href=\"#overview\">数据概览</a>\n      <a href=\"#features\">为什么选我</a>\n      <a href=\"#plans\">套餐价格</a>\n      <a href=\"#guide\">使用指南</a>\n      <a href=\"#faq\">常见问题</a>\n    </div>\n  </div>\n  <div class=\"sidebar-footer\">\n    <p>© MeiYing 版权所有。<br>轻松连接，自由畅享。</p>\n  </div>\n</nav>\n\n<main>\n  \n  <section id=\"overview\" class=\"hero\">\n    <div class=\"hero-intro\">\n      <h1>Hi，欢迎来到 MeiYing</h1>\n      <p>我们为你提供轻松、流畅的网络连接伙伴。无需复杂的配置，在这里，你可以随时开启顺畅的数字生活。</p>\n    </div>\n    <div class=\"dashboard-grid\">\n      <div class=\"dashboard-card\">\n        <div class=\"number\">100%</div>\n        <div class=\"label\">真诚相待的陪伴</div>\n      </div>\n      <div class=\"dashboard-card\">\n        <div class=\"number\">7x24</div>\n        <div class=\"label\">随时待命的支持</div>\n      </div>\n      <div class=\"dashboard-card\">\n        <div class=\"number\">极速</div>\n        <div class=\"label\">流畅不卡顿的体验</div>\n      </div>\n      <div class=\"dashboard-card\">\n        <div class=\"number\">多端</div>\n        <div class=\"label\">全平台设备完美适配</div>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"features\">\n    <h2>为什么大家都喜欢 MeiYing？</h2>\n    <div class=\"features-grid\">\n      <div class=\"feature-item\">\n        <h3>像呼吸一样自然的连接</h3>\n        <p>告别繁琐的参数设置。我们把所有复杂的底层逻辑都默默处理好，你只需要轻轻一点，就能顺畅接入广阔网络。</p>\n      </div>\n      <div class=\"feature-item\">\n        <h3>专属优化，告别延迟</h3>\n        <p>无论是日常浏览、观看高清视频，还是和远方的朋友连麦互动，专线优化都能让你的每一步操作都快人一步。</p>\n      </div>\n      <div class=\"feature-item\">\n        <h3>多设备轻松同步</h3>\n        <p>手机、平板、电脑，无论你换到哪台设备，MeiYing 都能无缝跟随，随时随地保持在线。</p>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"plans\">\n    <h2>找到最适合你的小伙伴</h2>\n    <div class=\"plans-container\">\n      <table class=\"plans-table\">\n        <thead>\n          <tr>\n            <th>套餐类型</th>\n            <th>基础版</th>\n            <th>旗舰版 <span class=\"featured-badge\">推荐</span></th>\n            <th>团队版</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>价格</strong></td>\n            <td>\n              ¥15/月\n              <span class=\"sub-price\">按年付仅需 ¥150/年</span>\n            </td>\n            <td>\n              ¥35/月\n              <span class=\"sub-price\">按年付仅需 ¥350/年</span>\n            </td>\n            <td>\n              ¥85/月\n              <span class=\"sub-price\">按年付仅需 ¥850/年</span>\n            </td>\n          </tr>\n          <tr>\n            <td><strong>流量额度</strong></td>\n            <td>每月 100GB 极速流量</td>\n            <td>每月 300GB 极速流量</td>\n            <td>每月 1000GB 极速流量</td>\n          </tr>\n          <tr>\n            <td><strong>在线设备</strong></td>\n            <td>支持 3 台设备同时在线</td>\n            <td>支持 5 台设备同时在线</td>\n            <td>支持 20 台设备同时在线</td>\n          </tr>\n          <tr>\n            <td><strong>核心权益</strong></td>\n            <td>\n              <ul>\n                <li>解锁基础流媒体</li>\n                <li>普通线路节点池</li>\n              </ul>\n            </td>\n            <td>\n              <ul>\n                <li>全节点原生流媒体解锁</li>\n                <li>IPLC 专线游戏加速优化</li>\n                <li>7x24 优先工单支持</li>\n              </ul>\n            </td>\n            <td>\n              <ul>\n                <li>VIP 专属高带宽节点</li>\n                <li>支持企业定制路由</li>\n                <li>专属客户经理服务</li>\n              </ul>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>\n\n  \n  <section id=\"guide\">\n    <h2>三步开启你的轻松体验</h2>\n    <div class=\"steps-list\">\n      <div class=\"step-card\">\n        <div class=\"step-number\">01</div>\n        <div class=\"step-content\">\n          <h3>注册属于你的账号</h3>\n          <p>只需提供一个常用的邮箱，花不到半分钟就能完成注册，成为 MeiYing 的新朋友。</p>\n        </div>\n      </div>\n      <div class=\"step-card\">\n        <div class=\"step-number\">02</div>\n        <div class=\"step-content\">\n          <h3>挑选心仪的套餐</h3>\n          <p>根据你的日常使用习惯，选择最合适的流量套餐，开启顺畅的高速通道。</p>\n        </div>\n      </div>\n      <div class=\"step-card\">\n        <div class=\"step-number\">03</div>\n        <div class=\"step-content\">\n          <h3>一键连接，自由畅享</h3>\n          <p>把配置信息导入你顺手的客户端中，点击连接，广阔世界即刻呈现在你眼前。</p>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"faq\">\n    <h2>常见问题小贴士</h2>\n    <div class=\"faq-grid\">\n      <div class=\"faq-item\">\n        <h3>新手上手会不会觉得很复杂？</h3>\n        <p>完全不用担心！我们准备了非常保姆级的使用教程，即使是第一次接触这类工具的朋友也能在两分钟内轻松上手。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>如果遇到连接不上怎么办？</h3>\n        <p>别慌，可以先检查一下订阅地址是否同步正确。如果还是不行，随时找我们的 7x24 小时客服或查阅帮助文档，我们都在。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>套餐流量是用完即止吗？</h3>\n        <p>是的，每月流量会在固定的账单日自动重置。如果本月流量提前用完，也可以随时选择按需补充或升级到更大容量的套餐哦。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>可以跟朋友一起合用吗？</h3>\n        <p>每个套餐都有明确的设备在线数量限制。为了保证大家的连接速度和流畅度，建议根据实际人数选择旗舰版或团队版哦。</p>\n      </div>\n    </div>\n  </section>\n\n  <footer>\n    <p>MeiYing - 随时随地，连接无限可能。</p>\n  </footer>\n</main>",
+          "hash": "50bf8f46cbdb5587750b2431a1b5377732f255a10e06e3e2a96908144ddb8e0e",
+          "seo": {
+            "title": "MeiYing - 懂你的网络连接伙伴",
+            "keywords": "MeiYing,网络加速,稳定连接,专线优化,流量套餐",
+            "description": "MeiYing 为你提供轻松、流畅的网络连接体验。告别卡顿与延迟，和朋友一起探索更广阔的数字世界。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "235",
+            "hero": "4 仪表盘式数据块拼贴",
+            "palette": "6 纯白配高饱和橙",
+            "nav": "2 左侧竖排目录",
+            "card": "2 粗描边直角",
+            "plans_view": "1 横向对比表格",
+            "faq_view": "1 双栏问答",
+            "tone": "2 亲切的朋友式口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "netcompay.cn",
+    "host": "p-52bd377f80.netcompay.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "541fd6f23ea8ede6f0ea8c6726667257f5ccd8ecdd2649387363f08e10eb9edd",
+    "sitemap.xml": "092818a8fbdd9acc090c0e77b142633df447471be3b575b9c832454bb646e200",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "403cddbc8309aadcf357d2171feba32affdcd4ab96c419e7e2d8e76cd69377ab",
+    "robots.txt": "e060d87d1122a643f4d1fd8d263b63215a1628b27e3adb2da7911274fd7319db",
+    "eb4404f72f35fe17936805a28d992eeb.txt": "67a49a6ab8cbe4d56d4846f11ea24c26ac33416544f69438c45a9c9dc7b6272b"
+  },
+  "revision": "e062a1a7af5355241a8a7e7c119d6eb1ed5fa69d73972dcc8750466343026539"
+}
